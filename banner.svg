@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Noureddine Ennomani - Administrateur Réseaux, Cloud et Cybersécurité">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0 H0 V20" fill="none" stroke="#1b222c" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#00ff9c"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- révélation progressive de chaque ligne (cycle de 14 s) -->
+    <clipPath id="c1"><rect x="40" y="58" width="0" height="34">
+      <animate attributeName="width" values="0;0;90;90;0" keyTimes="0;0.03;0.09;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="90" width="0" height="48">
+      <animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.11;0.24;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="136" width="0" height="34">
+      <animate attributeName="width" values="0;0;150;150;0" keyTimes="0;0.29;0.35;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="164" width="0" height="34">
+      <animate attributeName="width" values="0;0;430;430;0" keyTimes="0;0.37;0.50;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="198" width="0" height="34">
+      <animate attributeName="width" values="0;0;250;250;0" keyTimes="0;0.54;0.64;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="224" width="0" height="34">
+      <animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.67;0.78;0.95;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- fenêtre -->
+  <rect x="10" y="10" width="880" height="300" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="10" y="10" width="880" height="300" rx="10" fill="url(#grid)" opacity="0.8"/>
+
+  <!-- barre de titre -->
+  <path d="M10 40 V20 a10 10 0 0 1 10 -10 H880 a10 10 0 0 1 10 10 V40 Z" fill="#161b22"/>
+  <circle cx="32" cy="25" r="6" fill="#ff5f56"/>
+  <circle cx="52" cy="25" r="6" fill="#ffbd2e"/>
+  <circle cx="72" cy="25" r="6" fill="#27c93f"/>
+  <text x="450" y="29" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#8b949e">noureddine@ennomani: ~/profil — ssh</text>
+
+  <!-- terminal -->
+  <g font-family="'Courier New', Consolas, monospace" font-size="15">
+    <g clip-path="url(#c1)"><text x="40" y="80"><tspan fill="#00ff9c">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text></g>
+    <g clip-path="url(#c2)"><text x="40" y="126" font-size="40" font-weight="700" fill="url(#gName)" filter="url(#glow)">Noureddine Ennomani</text></g>
+    <g clip-path="url(#c3)"><text x="40" y="160"><tspan fill="#00ff9c">$</tspan><tspan fill="#e6edf3"> cat role.txt</tspan></text></g>
+    <g clip-path="url(#c4)"><text x="40" y="188" fill="#ffb000">Administrateur Réseaux, Cloud &amp; Cybersécurité</text></g>
+    <g clip-path="url(#c5)"><text x="40" y="218"><tspan fill="#00ff9c">$</tspan><tspan fill="#e6edf3"> ./status --open-to-work</tspan></text></g>
+    <g clip-path="url(#c6)"><text x="40" y="246"><tspan fill="#00ff9c">[ OK ]</tspan><tspan fill="#c9d1d9"> Recherche un poste d'administrateur</tspan></text></g>
+  </g>
+  <!-- curseur -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.78;0.79;0.95;1" dur="14s" repeatCount="indefinite"/>
+    <rect x="428" y="233" width="9" height="16" fill="#00ff9c">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- séparateur -->
+  <line x1="545" y1="56" x2="545" y2="262" stroke="#30363d" stroke-dasharray="3 5"/>
+
+  <!-- schéma réseau -->
+  <g font-family="'Courier New', Consolas, monospace" font-size="11">
+    <text x="565" y="62" fill="#8b949e">// topologie</text>
+
+    <!-- liens -->
+    <g stroke="#00d4ff" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="4 6" fill="none">
+      <animate attributeName="stroke-dashoffset" values="0;-20" dur="1.2s" repeatCount="indefinite"/>
+      <path d="M718 112 L632 168"/>
+      <path d="M718 112 L804 168"/>
+      <path d="M632 168 L804 168"/>
+      <path d="M632 168 L718 232"/>
+      <path d="M804 168 L718 232"/>
+    </g>
+
+    <!-- paquets -->
+    <g fill="#00ff9c" filter="url(#glow)">
+      <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" path="M718 112 L632 168"/></circle>
+      <circle r="3"><animateMotion dur="3s" repeatCount="indefinite" path="M632 168 L804 168"/></circle>
+      <circle r="3"><animateMotion dur="2.8s" repeatCount="indefinite" path="M804 168 L718 232"/></circle>
+      <circle r="3"><animateMotion dur="3.4s" repeatCount="indefinite" path="M718 112 L804 168"/></circle>
+      <circle r="3"><animateMotion dur="2.6s" repeatCount="indefinite" path="M632 168 L718 232"/></circle>
+    </g>
+
+    <!-- noeuds -->
+    <g text-anchor="middle">
+      <rect x="678" y="96" width="80" height="30" rx="6" fill="#0d1117" stroke="#00d4ff"/>
+      <text x="718" y="115" fill="#00d4ff">CLOUD</text>
+
+      <rect x="592" y="152" width="80" height="30" rx="6" fill="#0d1117" stroke="#ff5f56"/>
+      <text x="632" y="171" fill="#ff5f56">pfSense</text>
+
+      <rect x="764" y="152" width="80" height="30" rx="6" fill="#0d1117" stroke="#00ff9c"/>
+      <text x="804" y="171" fill="#00ff9c">Proxmox</text>
+
+      <rect x="678" y="216" width="80" height="30" rx="6" fill="#0d1117" stroke="#ffb000"/>
+      <text x="718" y="235" fill="#ffb000">VLAN</text>
+    </g>
+    <rect x="678" y="96" width="80" height="30" rx="6" fill="none" stroke="#00d4ff" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- barre de statut -->
+  <path d="M10 282 H890 V300 a10 10 0 0 1 -10 10 H20 a10 10 0 0 1 -10 -10 Z" fill="#161b22"/>
+  <rect x="10" y="282" width="110" height="28" fill="#00ff9c"/>
+  <path d="M10 282 H120 V310 H20 a10 10 0 0 1 -10 -10 Z" fill="#00ff9c"/>
+  <g font-family="'Courier New', Consolas, monospace" font-size="12">
+    <text x="24" y="301" fill="#0d1117" font-weight="700">● ONLINE</text>
+    <text x="140" y="301" fill="#c9d1d9">Réseaux · Cloud · Cybersécurité</text>
+    <text x="440" y="301" fill="#8b949e">ESTK · Bachelor 2027</text>
+    <text x="640" y="301" fill="#8b949e">Ouarzazate, MA</text>
+    <text x="870" y="301" text-anchor="end" fill="#ffb000">FR · EN</text>
+  </g>
+</svg>
