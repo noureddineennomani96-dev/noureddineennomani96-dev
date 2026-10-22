@@ -114,7 +114,28 @@ SCRIPTS .... Bash · PowerShell · Python · API REST
 2023          Baccalauréat Sciences Physiques et Chimiques
 ```
 
-🏅 **Certifications** : SecNumacadémie (ANSSI) · Cisco Networking Academy · Fortinet Certified Fundamentals
+```bash
+$ ls ~/certifications
+```
+
+<p>
+  <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20SecNum%C3%A9cadémie-ANSSI-0055A4?style=for-the-badge&labelColor=0d1117" alt="SecNumacadémie ANSSI">
+  <img src="https://img.shields.io/badge/Cisco-Networking%20Academy-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0d1117" alt="Cisco Networking Academy">
+  <img src="https://img.shields.io/badge/Fortinet-Certified%20Fundamentals-EE3124?style=for-the-badge&logo=fortinet&logoColor=white&labelColor=0d1117" alt="Fortinet Certified Fundamentals">
+</p>
+
+<!--
+Pour mettre les logos officiels à la place des badges :
+1. Crée un dossier "certs" dans le dépôt et envoie-y tes images (anssi.png, cisco.png, fortinet.png)
+2. Remplace les badges ci-dessus par :
+
+<p align="center">
+  <img src="certs/anssi.png" height="90" alt="SecNumacadémie ANSSI">
+  <img src="certs/cisco.png" height="90" alt="Cisco Networking Academy">
+  <img src="certs/fortinet.png" height="90" alt="Fortinet Certified Fundamentals">
+</p>
+-->
+
 
 ---
 
