@@ -15,12 +15,12 @@ $ whoami
 noureddine-ennomani
 
 $ cat mission.txt
-J'administre, déploie et sécurise des infrastructures IT complexes.
+Étudiant en Réseaux, Cloud & Cybersécurité : je conçois, déploie et sécurise des infrastructures IT.
 Des réseaux qui tiennent, des systèmes reproductibles, des accès contrôlés.
 
-$ ./status --open-to-work
-[ OK ] Recherche un poste d'administrateur réseaux, cloud et cybersécurité
-       Bachelor RCC · ESTK · diplôme prévu en 2027
+$ ./status --stage
+[ OK ] Recherche un stage de 3 mois en réseaux, cloud et cybersécurité
+       Étudiant Bachelor RCC · ESTK · diplôme prévu en 2027
 ```
 
 <p align="center">
