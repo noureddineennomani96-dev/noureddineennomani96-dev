@@ -119,7 +119,7 @@
     <text x="40" y="300" fill="#0d1117" font-weight="700" textLength="100" lengthAdjust="spacingAndGlyphs">STAGE 3 MOIS</text>
     <text x="168" y="300" fill="#c9d1d9" textLength="236" lengthAdjust="spacingAndGlyphs">Étudiant · Réseaux · Cloud · Cyber</text>
     <text x="428" y="300" fill="#8b949e" textLength="144" lengthAdjust="spacingAndGlyphs">ESTK · Bachelor 2027</text>
-    <text x="596" y="300" fill="#8b949e" textLength="100" lengthAdjust="spacingAndGlyphs">Ouarzazate, MA</text>
+    <text x="596" y="300" fill="#8b949e" textLength="38" lengthAdjust="spacingAndGlyphs">Maroc</text>
     <text x="870" y="300" text-anchor="end" fill="#ffb000">FR · EN</text>
   </g>
 </svg>

@@ -24,10 +24,10 @@ $ ./status --stage
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/location-Ouarzazate%2C%20MA-00ff9c?style=flat-square&labelColor=0d1117" alt="location">
-  <img src="https://img.shields.io/badge/langues-FR%20%C2%B7%20EN-00d4ff?style=flat-square&labelColor=0d1117" alt="langues">
-  <img src="https://img.shields.io/badge/focus-R%C3%A9seaux%20%C2%B7%20Cloud%20%C2%B7%20Cyber-ffb000?style=flat-square&labelColor=0d1117" alt="focus">
-  <img src="https://komarev.com/ghpvc/?username=noureddineennomani96-dev&label=visites&color=ff5f56&style=flat-square&labelColor=0d1117" alt="visites">
+  <img src="https://img.shields.io/badge/location-Maroc-00ff9c?style=flat-square" alt="location">
+  <img src="https://img.shields.io/badge/langues-FR%20%C2%B7%20EN-00d4ff?style=flat-square" alt="langues">
+  <img src="https://img.shields.io/badge/focus-R%C3%A9seaux%20%C2%B7%20Cloud%20%C2%B7%20Cyber-ffb000?style=flat-square" alt="focus">
+  <img src="https://komarev.com/ghpvc/?username=noureddineennomani96-dev&label=visites&color=ff5f56&style=flat-square" alt="visites">
 </p>
 
 ---
